@@ -9,7 +9,7 @@ We will implement trained model to an simple application where we take input fro
 ### Design Decisions
 We have used the following evaluation metrices.
 ### 1. Accuracy : 
-Accuracy is a very simple an deffective metices to evaluate the preddibility of a model. This calculate the percentage of correctprediction. As this is very simple and commonly used metrics to evaluate the model, we have decided to use accuray as one of the evaluation metrices.
+Accuracy is a very simple an deffective metices to evaluate the preddibility of a model. This calculate the percentage of correctprediction. As this is very simple and commonly used metrics to evaluate the model, we have decided to use accuray as one of the evaluation metrices. With a imbalanceAccuracy can be a misleading metric for imbalanced data sets.
 
 Baseline?
 ### 2. Precision :
