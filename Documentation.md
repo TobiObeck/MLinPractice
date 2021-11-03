@@ -18,7 +18,9 @@ Precision provides the information regarding the quality of a positive predictio
 ### 3. Recall:
 Recall gives us intuation regarding how many of the Actual Positives our model capture through labeling it as Positive (True Positive). We can use this metric to select best model when we are dealing with dataset that as high cost associated with false negative
 
-### 3. Cohen's kappa : 
+### 4. Cohen's kappa : 
 We are dealing with an imbalance class, meaning we have data set with only _ % of viral tweet and _% nonviral tweet. And Cohen’s kappa statistic is a very good measure that can handle very well an dataset with imbalanced class. 
 
-### 4. Recall: 
+### 5. F1-score: 
+
+### 6 Jaccard 
