@@ -12,3 +12,9 @@ We have used the following evaluation metrices.
 Accuracy is a very simple an deffective metices to evaluate the preddibility of a model. This calculate the percentage of correctprediction. As this is very simple and commonly used metrics to evaluate the model, we have decided to use accuray as one of the evaluation metrices.
 
 Baseline?
+### 2. Precision :
+
+### 3. Cohen's kappa : 
+We are dealing with an imbalance class meaning we have data set with only _ % of viral tweet and _% nonviral tweet. And Cohen’s kappa statistic is a very good measure that can handle very well an dataset with imbalanced class. 
+
+### 4. Recall: 
