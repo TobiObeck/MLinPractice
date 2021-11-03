@@ -15,6 +15,6 @@ Baseline?
 ### 2. Precision :
 
 ### 3. Cohen's kappa : 
-We are dealing with an imbalance class meaning we have data set with only _ % of viral tweet and _% nonviral tweet. And Cohen’s kappa statistic is a very good measure that can handle very well an dataset with imbalanced class. 
+We are dealing with an imbalance class, meaning we have data set with only _ % of viral tweet and _% nonviral tweet. And Cohen’s kappa statistic is a very good measure that can handle very well an dataset with imbalanced class. 
 
 ### 4. Recall: 
