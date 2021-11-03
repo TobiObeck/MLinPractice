@@ -24,3 +24,66 @@ We are dealing with an imbalance class, meaning we have data set with only _ % o
 ### 5. F1-score: 
 
 ### 6 Jaccard 
+
+
+### Results
+
+
+### Interpretation
+
+
+## Preprocessing
+
+
+
+### Design Decisions
+
+
+### Results
+
+
+
+### Interpretation
+
+
+
+## Feature Extraction
+
+
+
+### Design Decisions
+
+
+
+### Results
+
+
+### Interpretation
+
+
+## Dimensionality Reduction
+
+
+
+### Design Decisions
+
+
+
+### Results
+
+
+
+### Interpretation
+
+
+## Classification
+
+### Design Decisions
+
+
+### Results
+
+
+### Interpretation
+
+
