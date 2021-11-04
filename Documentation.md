@@ -33,12 +33,10 @@ We are dealing with an imbalance class, meaning we have data set with only _ % o
 
 
 ## Preprocessing
-
-
-
+In this step we cleaned the provided data set and made the data set ready for the model training.
 ### Design Decisions
-
-
+The first step we implemented is, remove rows that doesnot have english languase Tweet. This decission was made because in our data set we have dominient english language tweet. This is done with script in src/preprocessing/preprocessors/non_english_remover.py
+In second step we remove columns which we consider not much relevent in the decision making process.And we also removed columns that has more than 80 % NAN values. In this step we removed total 22 columns. This is done with script in src/preprocessing/preprocessors/column_droper.py.
 ### Results
 
 
