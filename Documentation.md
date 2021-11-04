@@ -37,8 +37,9 @@ In this step we cleaned the provided data set and made the data set ready for th
 ### Design Decisions
 The first step we implemented is, remove rows that doesnot have english languase Tweet. This decission was made because in our data set we have dominient english language tweet. This is done with script in src/preprocessing/preprocessors/non_english_remover.py
 In second step we remove columns which we consider not much relevent in the decision making process. And we also removed columns that has more than 80 % NAN values. This process is a important steps in data wrangling. In this step we removed total 22 columns. This is done with script in src/preprocessing/preprocessors/column_droper.py.
+We also clean the "Tweet" column. Tweet contains emojis, mentions, hashtags, and links, which are bad for the NLP so we remove those with regex. This is done with script in src/preprocessing/preprocessors/tweet_clean.py
 ### Results
-
+After preprocessing we end up with less columns. This already reduced dimention of the dataset for the Model training. And we have a tweet with only with characters that are good for NLP.
 
 
 ### Interpretation
